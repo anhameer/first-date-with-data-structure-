@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+class Node{
+		public:
+			int data;
+			Node *next;
+};
+Node *input(Node* head,int d ){
+	
+	
+}
+int main(){
+	Node*head=NULL;
+	cout<<"enter the ele in the list :"<<endl;
+	int n;
+	cin>>n;
+	cout<<"enter elements:"<<endl;
+	int temp;
+	cin>>temp;
+	
+	
+	head=new Node();
+	head->Data=temp;
+	head ->next=NULL;
+	
+	for(int i;i<n;i++){
+		cin>>temp;
+		head=input(head,temp);
+	}
+	
+	
+}
