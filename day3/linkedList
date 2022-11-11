@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+struck Node{
+	int val;
+	Node* next;
+	
+};
+class my stack{
+	Node* head;
+	int stacksize;
+	
+	public:
+		// constructor
+		mystack(){
+			head=NULL;
+			stacksize=0;
+			
+		}
+		void push(int ele){
+			Node *temp=new node();
+			temp->val=ele;
+			head=temp;
+			cout<<"ele<<ele<<is inserted"<<endl;
+			stacksize++;
+			
+		}
+		
+};
+void pop(){
+	if (head==NULL){
+		cout
+	}
+}
